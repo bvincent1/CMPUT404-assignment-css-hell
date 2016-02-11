@@ -14,23 +14,26 @@ body {
     text-decoration: none;
 }
 
+#headerbar {
+    height: 200px;
+    text-align: center;
+}
+
 
 #headerbar h1 {
-    text-align: center;
     font-size: 80px;
     background: -webkit-linear-gradient(left, red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#headerbar a {
+#headernav a {
     font-weight: bold;
     color: black;
     background-color: orange; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -39,6 +42,7 @@ body {
 #main {
     background-color: white;
     background-image: url("yorkie.jpg");
+    border-radius: 25px;
 }
 
 #main p {
