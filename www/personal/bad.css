@@ -5,18 +5,14 @@ body {
     background: #1a53ff;
 }
 
-#contact a {
-    text-align: center;
-    font-weight: bold;
-    padding: 15px 32px;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-}
 
 #headerbar {
     height: 200px;
     text-align: center;
+    background-image: url(star.jpg);
+    background-repeat: repeat-x;
+    background-position: right top;
+    border-radius: 25px;
 }
 
 
@@ -30,7 +26,7 @@ body {
 #headernav a {
     font-weight: bold;
     color: black;
-    background-color: orange; /* Green */
+    background-color: orange;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -39,18 +35,38 @@ body {
     font-size: 16px;
 }
 
-#main {
+.content {
     background-color: white;
     background-image: url("yorkie.jpg");
+    background-repeat: repeat-y;
+    background-position: right top;
     border-radius: 25px;
-}
-
-#main p {
+    padding-left: 10%;
+    padding-right: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font: 75% georgia, sans-serif;
     font-size: 20px;
     font-style: oblique;
     text-align: left;
-    padding-left: 20%;
-    padding-right: 20%;
-    /* color: #ccd9ff;*/
+}
+
+.content a{
+    text-decoration: none;
+    color: orange;
+}
+
+.content p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-indent: 50px;
+}
+
+#contact a {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
