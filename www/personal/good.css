@@ -3,8 +3,9 @@ body {
 }
 
 h1 {
-    color: ccd9ff;
+    color: white;
     text-align: center;
+    font-size: 50px;
 }
 
 h2 {
@@ -14,14 +15,14 @@ h2 {
     color: #ccd9ff;
 }
 
-a {
+.top {
     font-weight: bold;
     text-decoration: none;
-    text-align: left;
+    text-align: center;
     color: #4d79ff;
 }
 
-#main p {
+.content {
     font: 75% georgia, sans-serif;
     font-size: 20px;
     font-style: oblique;

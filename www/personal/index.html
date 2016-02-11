@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>Ben Vincent</title>
-        <link rel="stylesheet" type="text/css" href="bad.css">
+        <link id="style_link" rel="stylesheet" type="text/css" href="good.css">
     </head>
 
     <body>
-        <div id="headerbar" >
+        <button name="Change Style" onclick="styleSwap()">Change Style</button>
+        <div id="headerbar" class="top">
             <h1>Ben Vincent</h1>
             <div id="headernav">
                 <a href="#headerbar">Home</a>
@@ -80,4 +81,16 @@
             </a>
         </div>
     </body>
+    <script charset="utf-8" type="text/javascript">
+        function styleSwap() {
+                var tag = document.getElementById("style_link");
+                var href = tag.href.split("/")[tag.href.split("/").length-1];
+                if ( href === "bad.css") {
+                    document.getElementById("style_link").href = "good.css"
+                }
+                else {
+                    document.getElementById("style_link").href = "bad.css"
+                }
+        }
+    </script>
 </html>
