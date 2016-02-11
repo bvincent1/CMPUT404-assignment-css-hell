@@ -21,7 +21,7 @@ a {
     color: #4d79ff;
 }
 
-p {
+#main p {
     font: 75% georgia, sans-serif;
     font-size: 20px;
     font-style: oblique;
@@ -30,6 +30,7 @@ p {
     padding-right: 20%;
     color: #ccd9ff;
 }
+
 
 pre {
     font: 75% georgia, sans-serif;

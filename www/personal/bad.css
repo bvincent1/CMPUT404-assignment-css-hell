@@ -1,0 +1,48 @@
+html{
+}
+
+body {
+    background: #1a53ff;
+}
+
+a {
+    text-align: center;
+    color: white;
+}
+
+
+#headerbar h1 {
+    text-align: center;
+    font-size: 80px;
+    background: -webkit-linear-gradient(left, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#headerbar a {
+    font-weight: bold;
+    color: black;
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#main {
+    background: white;
+    padding: 0px;
+}
+
+#main p {
+    font: 75% georgia, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* color: #ccd9ff;*/
+}
