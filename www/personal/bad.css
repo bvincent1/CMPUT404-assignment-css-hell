@@ -62,8 +62,11 @@ body {
     text-indent: 50px;
 }
 
-#contact a {
+#contact {
     text-align: center;
+}
+
+#contact a {
     font-weight: bold;
     padding: 15px 32px;
     font-size: 20px;
