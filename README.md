@@ -23,6 +23,8 @@ Code is licensed under the Apache 2.0 license.
 
 CSS Sources
 ===========
-p, a, and color tags were borrowed / inspired from: http://www.csszengarden.com/ (literally the title page)
+p, a, tags and colors were borrowed / inspired from: http://www.csszengarden.com/ (literally the title page)
+
 good.css background http://privatlan.blogspot.ca/2015/07/nature-backgrounds-hd.html
+
 bad.css background http://www.philly.com/philly/blogs/phillypets/20140424_PET360_What_are_the_Top_Yorkie_Names_.html
