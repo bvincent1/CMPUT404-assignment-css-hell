@@ -21,6 +21,11 @@ body {
     background: -webkit-linear-gradient(left, red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
 }
 
 .top a {
@@ -62,6 +67,10 @@ body {
     text-indent: 50px;
 }
 
+.content h2 {
+    animation: blinker 1s linear infinite;
+}
+
 #contact {
     text-align: center;
 }
@@ -72,4 +81,9 @@ body {
     font-size: 20px;
     color: white;
     text-decoration: none;
+}
+
+#me {
+    border-radius: 18px;
+    padding: 10px 10px 10px 10px;
 }
